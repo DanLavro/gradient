@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient {
+  width: 100%;
+  height: 100vh;
+}
+
+form {
+  position: absolute;
+  display: flex;
+}
+
+input,
+button {
+  margin: 10px 5px;
+}
+
+.invalid_input {
+  border: 2px solid red;
+}
+
+input:focus {
+  outline: none;
+}

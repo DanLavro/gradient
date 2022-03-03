@@ -8,7 +8,7 @@
 
 ```
 git clone https://github.com/DanLavro/gradient.git
-cd elevator-emulator
+cd gradient
 npm install
 npm start
 ```
